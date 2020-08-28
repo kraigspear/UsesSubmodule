@@ -1,0 +1,7 @@
+[submodule "/Users/kraigspear/Projects/UsesSubmodule/Submodules/Submodule"]
+	path = /Users/kraigspear/Projects/UsesSubmodule/Submodules/Submodule
+	url = https://github.com/kraigspear/Submodule
+[submodule "Submodules/Submodule"]
+	path = Submodules/Submodule
+	url = https://github.com/kraigspear/Submodule
+	branch = master

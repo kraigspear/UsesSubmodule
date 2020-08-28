@@ -13,14 +13,14 @@
 		A93893C524F902AE005FDAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93893C324F902AE005FDAC9 /* Main.storyboard */; };
 		A93893C724F902AE005FDAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93893C624F902AE005FDAC9 /* Assets.xcassets */; };
 		A93893CA24F902AE005FDAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93893C824F902AE005FDAC9 /* LaunchScreen.storyboard */; };
-		A9625E9124F905AB003519ED /* Submodule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93893D624F9033E005FDAC9 /* Submodule.framework */; };
-		A9625E9224F905AB003519ED /* Submodule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A93893D624F9033E005FDAC9 /* Submodule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9ABF53624F9153000A98868 /* Submodule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ABF53524F9152600A98868 /* Submodule.framework */; };
+		A9ABF53724F9153000A98868 /* Submodule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9ABF53524F9152600A98868 /* Submodule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A93893D524F9033E005FDAC9 /* PBXContainerItemProxy */ = {
+		A9ABF53424F9152600A98868 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A93893D124F9033E005FDAC9 /* Submodule.xcodeproj */;
+			containerPortal = A9ABF53024F9152300A98868 /* Submodule.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A94C3C5524F900DE00EF8DE5;
 			remoteInfo = Submodule;
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A9625E9224F905AB003519ED /* Submodule.framework in Embed Frameworks */,
+				A9ABF53724F9153000A98868 /* Submodule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +50,7 @@
 		A93893C624F902AE005FDAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A93893C924F902AE005FDAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A93893CB24F902AE005FDAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A93893D124F9033E005FDAC9 /* Submodule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Submodule.xcodeproj; path = ../../Submodule/Submodule.xcodeproj; sourceTree = "<group>"; };
+		A9ABF53024F9152300A98868 /* Submodule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Submodule.xcodeproj; path = Submodules/Submodule/Submodule.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9625E9124F905AB003519ED /* Submodule.framework in Frameworks */,
+				A9ABF53624F9153000A98868 /* Submodule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +68,7 @@
 		A93893B124F902AE005FDAC9 = {
 			isa = PBXGroup;
 			children = (
+				A9ABF53024F9152300A98868 /* Submodule.xcodeproj */,
 				A93893BC24F902AE005FDAC9 /* UsesSubmodule */,
 				A93893BB24F902AE005FDAC9 /* Products */,
 				A93893D724F903E4005FDAC9 /* Frameworks */,
@@ -85,7 +86,6 @@
 		A93893BC24F902AE005FDAC9 /* UsesSubmodule */ = {
 			isa = PBXGroup;
 			children = (
-				A93893D124F9033E005FDAC9 /* Submodule.xcodeproj */,
 				A93893BD24F902AE005FDAC9 /* AppDelegate.swift */,
 				A93893BF24F902AE005FDAC9 /* SceneDelegate.swift */,
 				A93893C124F902AE005FDAC9 /* ViewController.swift */,
@@ -97,19 +97,19 @@
 			path = UsesSubmodule;
 			sourceTree = "<group>";
 		};
-		A93893D224F9033E005FDAC9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A93893D624F9033E005FDAC9 /* Submodule.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A93893D724F903E4005FDAC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9ABF53124F9152300A98868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9ABF53524F9152600A98868 /* Submodule.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +161,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = A93893D224F9033E005FDAC9 /* Products */;
-					ProjectRef = A93893D124F9033E005FDAC9 /* Submodule.xcodeproj */;
+					ProductGroup = A9ABF53124F9152300A98868 /* Products */;
+					ProjectRef = A9ABF53024F9152300A98868 /* Submodule.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -173,11 +173,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		A93893D624F9033E005FDAC9 /* Submodule.framework */ = {
+		A9ABF53524F9152600A98868 /* Submodule.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Submodule.framework;
-			remoteRef = A93893D524F9033E005FDAC9 /* PBXContainerItemProxy */;
+			remoteRef = A9ABF53424F9152600A98868 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
